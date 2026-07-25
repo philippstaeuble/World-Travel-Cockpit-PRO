@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#16324f">
+<title>Datenqualität · World Travel Cockpit PRO</title>
+<style>
+:root{--navy:#16324f;--blue:#2e6288;--green:#087b5a;--bg:#eef3f6;--card:#fff;--line:#dbe4e9;--text:#173042;--muted:#657782;--amber:#fff4d4;--red:#fff0f0;--ok:#e5f5ef}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:Arial,sans-serif;color:var(--text)}button,select{font:inherit}.wrap{max-width:1100px;margin:auto;padding:14px}.top{background:linear-gradient(120deg,var(--navy),#275f8d);color:#fff;border-radius:14px;padding:18px;margin-bottom:14px}.top h1{font-size:22px;margin:0 0 8px}.top a{color:#fff}.small{font-size:13px;color:var(--muted);line-height:1.4}.grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin-bottom:14px}.metric,.card{background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:0 2px 8px #0000000d}.metric{padding:12px}.metric b{display:block;font-size:22px;margin-top:5px}.card{overflow:hidden;margin-bottom:14px}.head{background:var(--green);color:#fff;padding:11px 13px;font-size:13px;font-weight:800}.body{padding:14px}.controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}.controls select,.controls button{border:1px solid var(--line);background:#fff;border-radius:9px;padding:9px}.controls button{background:var(--navy);color:#fff;font-weight:700}.table{width:100%;border-collapse:collapse;font-size:13px}.table th,.table td{padding:9px 7px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}.table th{font-size:11px;text-transform:uppercase;color:var(--muted)}.badge{display:inline-block;border-radius:999px;padding:3px 8px;font-size:11px;font-weight:800}.bad{background:var(--red);color:#9a2020}.warn{background:var(--amber);color:#7c5900}.good{background:var(--ok);color:#087b5a}.issue{background:var(--red);border-radius:8px;padding:7px 9px;margin:4px 0}.notice{background:var(--amber);border:1px solid #e8cf80;border-radius:10px;padding:10px 12px;margin-bottom:14px;font-size:13px}.footer{text-align:center;color:var(--muted);font-size:12px;padding:16px}@media(max-width:760px){.wrap{padding:8px}.grid{grid-template-columns:repeat(2,1fr)}.table{font-size:12px}.hide-mobile{display:none}.top h1{font-size:18px}}
+</style>
+</head>
+<body><div class="wrap">
+<header class="top"><h1>DATENQUALITÄT</h1><div><a href="index.html">← Zurück zum Cockpit</a></div></header>
+<div class="notice"><b>Prüflogik V3.2:</b> Es werden nur Felder bewertet, die in den echten Rohdaten bereits vorhanden sind. PDF/Voucher, Flugnummer, Terminal, Gepäck und separate Ankunftszeit sind aktuell noch keine eigenen Datenfelder und werden deshalb nicht fälschlich als Fehler gezählt.</div>
+<div class="grid" id="metrics"></div>
+<section class="card"><div class="head">ÜBERSICHT NACH BEREICH</div><div class="body"><div id="summary">Daten werden geladen …</div></div></section>
+<section class="card"><div class="head">OFFENE DATENPUNKTE</div><div class="body">
+<div class="controls"><select id="typeFilter"><option value="">Alle Bereiche</option></select><select id="phaseFilter"><option value="">Alle Reisephasen</option></select><select id="issueFilter"><option value="">Alle Fehlerarten</option></select><button onclick="renderIssues()">Filtern</button></div>
+<div id="issues"></div></div></section>
+<div class="footer">World Travel Cockpit PRO · Datenqualität V3.2</div>
+</div>
+<script>
+let records=[],issues=[];
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const cleanType=t=>String(t||'').replace(/^[^A-Za-zÀ-ÿ]+/,'').trim();
+function addIssue(r,label,level='bad'){issues.push({r,label,level,type:cleanType(r.type),phase:r.phase||'Ohne Phase'})}
+function audit(r){
+ const type=cleanType(r.type);
+ if(!r.date)addIssue(r,'Datum fehlt');
+ if(!r.time && !type.includes('Hotel'))addIssue(r,'Uhrzeit fehlt');
+ if(!r.what)addIssue(r,'Bezeichnung fehlt');
+ if(!r.from)addIssue(r,'Start/Ort fehlt');
+ if(!r.to)addIssue(r,'Ziel/Unterkunft fehlt');
+ if(Number(r.open)>0 && !r.due)addIssue(r,'Fälligkeit für offenen Betrag fehlt');
+ if(Number(r.open)>0 && String(r.status||'').toLowerCase()==='erledigt')addIssue(r,'Offener Betrag trotz Status erledigt');
+ if((type.includes('Flug')||type.includes('Hotel')||type.includes('Mietwagen')||type.includes('Aktivität')) && !r.booking)addIssue(r,'Buchungsnummer fehlt','warn');
+ if(type.includes('Flug') && !/sitz|seat/i.test(r.notes||''))addIssue(r,'Sitzplatz nicht in Bemerkungen erfasst','warn');
+ if((type.includes('Flug')||type.includes('Hotel')||type.includes('Mietwagen')||type.includes('Aktivität')) && !r.notes)addIssue(r,'Bemerkung fehlt','warn');
+}
+function selectOptions(id,vals){document.getElementById(id).innerHTML+=vals.sort().map(v=>`<option>${esc(v)}</option>`).join('')}
+function renderMetrics(){
+ const bad=issues.filter(x=>x.level==='bad').length,warn=issues.filter(x=>x.level==='warn').length;
+ const complete=records.filter(r=>!issues.some(x=>x.r===r)).length;
+ const open=records.reduce((s,r)=>s+Number(r.open||0),0);
+ const items=[['Datensätze',records.length],['Vollständig',complete],['Fehler',bad],['Hinweise',warn],['Offen','CHF '+open.toLocaleString('de-CH',{maximumFractionDigits:0})]];
+ document.getElementById('metrics').innerHTML=items.map(x=>`<div class="metric"><span class="small">${x[0]}</span><b>${x[1]}</b></div>`).join('');
+}
+function renderSummary(){
+ const groups={}; records.forEach(r=>{const t=cleanType(r.type)||'Sonstiges';(groups[t]??=[]).push(r)});
+ const rows=Object.entries(groups).sort((a,b)=>a[0].localeCompare(b[0])).map(([t,arr])=>{const n=issues.filter(x=>arr.includes(x.r)).length,ok=arr.filter(r=>!issues.some(x=>x.r===r)).length;return `<tr><td><b>${esc(t)}</b></td><td>${arr.length}</td><td>${ok}</td><td>${n?`<span class="badge ${issues.some(x=>arr.includes(x.r)&&x.level==='bad')?'bad':'warn'}">${n} offen</span>`:'<span class="badge good">OK</span>'}</td></tr>`}).join('');
+ document.getElementById('summary').innerHTML=`<table class="table"><thead><tr><th>Bereich</th><th>Gesamt</th><th>Vollständig</th><th>Prüfpunkte</th></tr></thead><tbody>${rows}</tbody></table>`;
+}
+function renderIssues(){
+ const tf=document.getElementById('typeFilter').value,pf=document.getElementById('phaseFilter').value,ifil=document.getElementById('issueFilter').value;
+ const list=issues.filter(x=>(!tf||x.type===tf)&&(!pf||x.phase===pf)&&(!ifil||x.label===ifil));
+ if(!list.length){document.getElementById('issues').innerHTML='<span class="badge good">Keine offenen Punkte im gewählten Filter</span>';return}
+ const rows=list.map(x=>`<tr><td>${esc(x.r.dateDisplay||x.r.date||'—')}<br><span class="small">${esc(x.r.time||'')}</span></td><td><b>${esc(x.type)}</b><br><span class="small">${esc(x.r.what||'')}</span></td><td><span class="badge ${x.level}">${x.level==='bad'?'Fehler':'Prüfen'}</span><div class="issue">${esc(x.label)}</div></td><td class="hide-mobile">${esc(x.r.booking||'—')}</td><td class="hide-mobile">${esc(x.phase)}</td></tr>`).join('');
+ document.getElementById('issues').innerHTML=`<div class="small" style="margin-bottom:8px">${list.length} offene Prüfpunkte</div><table class="table"><thead><tr><th>Datum</th><th>Eintrag</th><th>Offen</th><th class="hide-mobile">Buchung</th><th class="hide-mobile">Phase</th></tr></thead><tbody>${rows}</tbody></table>`;
+}
+async function load(){
+ try{const html=await fetch('index.html?ts='+Date.now()).then(r=>r.text());const m=html.match(/const DATA=(\{.*?\});\s*const records=/s)||html.match(/const DATA=(\{.*?\});/s);if(!m)throw new Error('DATA nicht gefunden');records=JSON.parse(m[1]).records||[];records.forEach(audit);selectOptions('typeFilter',[...new Set(records.map(r=>cleanType(r.type)).filter(Boolean))]);selectOptions('phaseFilter',[...new Set(records.map(r=>r.phase).filter(Boolean))]);selectOptions('issueFilter',[...new Set(issues.map(x=>x.label))]);renderMetrics();renderSummary();renderIssues()}catch(e){document.getElementById('summary').innerHTML='<div class="issue"><b>Daten konnten nicht gelesen werden.</b><br>'+esc(e.message)+'</div>';document.getElementById('issues').innerHTML=''}
+}
+load();
+</script></body></html>
