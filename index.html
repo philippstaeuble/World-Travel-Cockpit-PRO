@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#16324f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="WTCP">
+<title>World Travel Cockpit PRO</title>
+<style>
+:root{--navy:#16324f;--blue:#2e6288;--green:#087b5a;--bg:#eef3f6;--card:#fff;--line:#dbe4e9;--text:#173042;--muted:#657782;--amber:#fff4d4;--red:#fff0f0}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:Arial,sans-serif;color:var(--text)}
+.wrap{max-width:1100px;margin:auto;padding:14px}.top{background:linear-gradient(120deg,var(--navy),#275f8d);color:#fff;border-radius:14px;padding:18px;margin-bottom:14px}.top h1{font-size:22px;margin:0 0 8px}.meta{display:flex;gap:14px;flex-wrap:wrap;font-size:14px;opacity:.95}.notice{background:#e5f5ef;border:1px solid #aad8c8;border-radius:10px;padding:10px 12px;margin-bottom:14px;font-size:14px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 2px 8px #0000000d}.head{background:var(--green);color:#fff;padding:10px 12px;font-size:13px;font-weight:800}.head.blue{background:var(--blue)}.body{padding:14px;min-height:135px}.label{font-size:11px;text-transform:uppercase;color:var(--muted);font-weight:800;margin-top:8px}.value{font-size:18px;font-weight:800;margin:3px 0 8px}.event{display:grid;grid-template-columns:58px 1fr;gap:8px;padding:9px 0;border-bottom:1px solid var(--line)}.event:last-child{border-bottom:0}.time{font-weight:800}.small{font-size:13px;color:var(--muted);line-height:1.35}.route{display:grid;grid-template-columns:1fr 28px 1fr;align-items:center;text-align:center;font-weight:800;font-size:17px;margin:10px 0}.arrow{font-size:24px;color:var(--green)}.budget{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.metric{background:#f6f9fa;border-radius:10px;padding:10px}.metric b{display:block;font-size:19px;margin-top:3px}.todo{background:var(--amber);border-radius:10px;padding:10px;margin-bottom:8px}.urgent{background:var(--red)}.nav{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:14px}.nav button{border:0;background:var(--navy);color:#fff;border-radius:10px;padding:12px 5px;font-weight:800;font-size:12px}.footer{text-align:center;color:var(--muted);font-size:12px;padding:18px}.hidden{display:none}
+@media(max-width:720px){.wrap{padding:8px}.grid{grid-template-columns:1fr}.top{border-radius:10px}.nav{grid-template-columns:repeat(3,1fr)}.body{min-height:115px}.top h1{font-size:18px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="notice">📱 Live-Version für PC und iPhone · Vor Reisebeginn zeigt das Cockpit automatisch den ersten Reisetag als Vorschau.</div>
+<header class="top"><h1>🌍 WORLD TRAVEL COCKPIT PRO</h1><div class="meta"><span id="dayLabel"></span><span id="phase"></span><span id="dateLabel"></span></div></header>
+<div class="grid">
+<section class="card"><div class="head">1. HEUTE – AKTIVITÄTEN</div><div class="body" id="todayActivities"></div></section>
+<section class="card"><div class="head">2. HEUTE – ORT / HOTEL</div><div class="body" id="todayPlace"></div></section>
+<section class="card"><div class="head blue">3. MORGEN – AKTIVITÄTEN</div><div class="body" id="tomorrowActivities"></div></section>
+<section class="card"><div class="head blue">4. MORGEN – ORT / HOTEL</div><div class="body" id="tomorrowPlace"></div></section>
+<section class="card"><div class="head blue">5. NÄCHSTER TRANSFER</div><div class="body" id="nextTransfer"></div></section>
+<section class="card"><div class="head blue">6. NÄCHSTER FLUG</div><div class="body" id="nextFlight"></div></section>
+<section class="card"><div class="head">7. TO-DO / PENDENZEN</div><div class="body" id="todos"></div></section>
+<section class="card"><div class="head">8. BUDGETSTATUS / OFFENE POSTEN</div><div class="body"><div class="budget"><div class="metric">Budget<b>CHF 30’000</b></div><div class="metric">Bezahlt<b>CHF 24’575</b></div><div class="metric">Offen<b>CHF 2’030</b></div><div class="metric">Restbudget<b>CHF 3’395</b></div></div></div></section>
+</div>
+<div class="nav"><button onclick="showInfo('Gesundheit')">Gesundheit</button><button onclick="showInfo('Packlisten')">Packlisten</button><button onclick="showInfo('Notfall')">Notfall</button><button onclick="showInfo('Reiseplan')">Reiseplan</button><button onclick="showInfo('Reiseunterlagen')">Reiseunterlagen</button></div>
+<div id="info" class="card hidden" style="margin-top:14px"><div class="head blue" id="infoHead"></div><div class="body" id="infoBody"></div></div>
+<div class="footer">World Travel Cockpit PRO · GitHub Pages Foundation V3.0</div>
+</div>
+<script>
+const tripStart='2026-09-24',tripEnd='2026-11-11';
+const days={
+'2026-09-24':{phase:'Anreise',place:'Frankfurt',hotel:'—',items:[['11:15','Zug Badischer Bahnhof → Frankfurt'],['12:15','Flug Frankfurt → Singapur · Business']],transfer:['Bad. Bahnhof','Frankfurt','11:15'],flight:['Frankfurt','Singapur','12:15','EJL3BP']},
+'2026-09-25':{phase:'Australien',place:'Cairns',hotel:'Cairns Colonial Club Resort',items:[['08:40','Flug Singapur → Cairns'],['17:00','Transfer zum Hotel'],['18:00','Check-in Cairns Colonial Club Resort']],transfer:['Cairns Airport','Cairns Colonial Club Resort','17:00'],flight:['Singapur','Cairns','08:40','EJL3BP']},
+'2026-09-26':{phase:'Australien',place:'Cairns / Daintree',hotel:'Cairns Colonial Club Resort',items:[['07:00','Pick-up Crystalbrook Flynn prüfen'],['08:30','Cape Tribulation, Mossman Gorge & Daintree']],transfer:['Cairns Colonial Club Resort','Crystalbrook Flynn','06:45'],flight:null}
+};
+const allTransfers=[['2026-09-24','11:15','Bad. Bahnhof','Frankfurt'],['2026-09-25','17:00','Cairns Airport','Cairns Colonial Club Resort'],['2026-09-26','06:45','Cairns Colonial Club Resort','Crystalbrook Flynn'],['2026-09-29','11:00','Cairns Colonial Club Resort','Cairns Airport']];
+const allFlights=[['2026-09-24','12:15','Frankfurt','Singapur','EJL3BP'],['2026-09-25','08:40','Singapur','Cairns','EJL3BP'],['2026-09-29','12:25','Cairns','Airlie Beach','PW2XXK'],['2026-10-02','15:15','Airlie Beach','Brisbane',''],['2026-10-05','16:15','Brisbane','Sydney',''],['2026-10-17','09:10','Sydney','Christchurch','']];
+const iso=d=>d.toISOString().slice(0,10),parse=s=>new Date(s+'T12:00:00');
+let real=new Date();real.setHours(12,0,0,0);let active=real<parse(tripStart)?parse(tripStart):real>parse(tripEnd)?parse(tripEnd):real;let tomorrow=new Date(active);tomorrow.setDate(active.getDate()+1);
+function fmt(s){return parse(s).toLocaleDateString('de-CH',{weekday:'long',day:'2-digit',month:'2-digit',year:'numeric'})}
+function dayNum(s){return Math.round((parse(s)-parse(tripStart))/86400000)+1}
+function renderDay(id,s){const d=days[s];document.getElementById(id).innerHTML=d?d.items.map(x=>`<div class="event"><div class="time">${x[0]}</div><div><b>${x[1]}</b></div></div>`).join(''):'<div class="small">Für diesen Tag sind in der Foundation noch keine Detaildaten eingebettet.</div>'}
+function renderPlace(id,s){const d=days[s];document.getElementById(id).innerHTML=d?`<div class="label">Ort</div><div class="value">${d.place}</div><div class="label">Hotel</div><div class="value">${d.hotel}</div>`:'<div class="small">Keine Detaildaten in der Foundation.</div>'}
+function next(list){const key=iso(active);return list.find(x=>x[0]>=key)}
+function routeHtml(x,flight=false){return x?`<div class="label">${fmt(x[0])} · ${x[1]}</div><div class="route"><div>${x[2]}</div><div class="arrow">→</div><div>${x[3]}</div></div>${flight&&x[4]?`<div class="small">Buchung ${x[4]}</div>`:''}`:'<div class="small">Kein weiterer Eintrag.</div>'}
+function showInfo(title){const box=document.getElementById('info');box.classList.remove('hidden');document.getElementById('infoHead').textContent=title;document.getElementById('infoBody').innerHTML=title==='Reiseunterlagen'?'<b>Dokumenten-Check wird als nächstes Modul integriert.</b><div class="small" style="margin-top:8px">Die bereits gelieferten ZIP-Dateien bilden die Grundlage.</div>':'<b>'+title+'</b><div class="small" style="margin-top:8px">Dieses Modul wird schrittweise ergänzt.</div>';box.scrollIntoView({behavior:'smooth'})}
+const a=iso(active),b=iso(tomorrow),current=days[a]||{phase:'Reise'};
+document.getElementById('dayLabel').textContent='Tag '+dayNum(a)+' von 49';document.getElementById('phase').textContent=current.phase;document.getElementById('dateLabel').textContent=fmt(a);renderDay('todayActivities',a);renderPlace('todayPlace',a);renderDay('tomorrowActivities',b);renderPlace('tomorrowPlace',b);document.getElementById('nextTransfer').innerHTML=routeHtml(next(allTransfers));document.getElementById('nextFlight').innerHTML=routeHtml(next(allFlights),true);document.getElementById('todos').innerHTML='<div class="todo urgent"><b>⚠ Reiseunterlagen-Check aufbauen</b><div class="small">Vouchers und PDFs auf Vollständigkeit prüfen.</div></div><div class="todo"><b>Offener Posten bestätigt</b><div class="small">CHF 2’030</div></div>';
+</script>
+</body></html>
