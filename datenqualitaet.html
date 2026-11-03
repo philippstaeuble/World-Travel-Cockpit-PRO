@@ -28,6 +28,8 @@ const cleanType=t=>String(t||'').replace(/^[^A-Za-zÀ-ÿ]+/,'').trim();
 function addIssue(r,label,level='bad'){issues.push({r,label,level,type:cleanType(r.type),phase:r.phase||'Ohne Phase'})}
 function audit(r){
  const type=cleanType(r.type);
+ if(typeof r.open!=='number' || !Number.isFinite(r.open))addIssue(r,'Offener Betrag ungültig: '+(r.openRaw??'leer')+' (Daten!H'+r.sourceRow+')');
+ if(typeof r.cost!=='number' || !Number.isFinite(r.cost))addIssue(r,'Kostenbetrag ungültig: '+(r.costRaw??'leer')+' (Daten!G'+r.sourceRow+')');
  if(!r.date)addIssue(r,'Datum fehlt');
  if(!r.time && !type.includes('Hotel'))addIssue(r,'Uhrzeit fehlt');
  if(!r.what)addIssue(r,'Bezeichnung fehlt');
@@ -44,7 +46,7 @@ function renderMetrics(){
  const bad=issues.filter(x=>x.level==='bad').length,warn=issues.filter(x=>x.level==='warn').length;
  const complete=records.filter(r=>!issues.some(x=>x.r===r)).length;
  const open=records.reduce((s,r)=>s+Number(r.open||0),0);
- const items=[['Datensätze',records.length],['Vollständig',complete],['Fehler',bad],['Hinweise',warn],['Offen','CHF '+open.toLocaleString('de-CH',{maximumFractionDigits:0})]];
+ const items=[['Datensätze',records.length],['Vollständig',complete],['Fehler',bad],['Hinweise',warn],['Offen (beziffert)','CHF '+open.toLocaleString('de-CH',{maximumFractionDigits:0})]];
  document.getElementById('metrics').innerHTML=items.map(x=>`<div class="metric"><span class="small">${x[0]}</span><b>${x[1]}</b></div>`).join('');
 }
 function renderSummary(){
@@ -70,8 +72,13 @@ async function loadData(){
  return data;
 }
 function renderBudgetCheck(data){
- const sum=data.records.reduce((s,r)=>s+Number(r.open||0),0),difference=data.budget.open-sum;
- document.getElementById('budgetCheck').textContent=difference===0?'Budgetabgleich: offene Beträge stimmen überein.':'Budget prüfen: Übersicht CHF '+data.budget.open.toLocaleString('de-CH')+' · Datensätze CHF '+sum.toLocaleString('de-CH')+' · Differenz CHF '+difference.toLocaleString('de-CH')+'. Ursache noch ungeklärt.';
+ const numeric=value=>typeof value==='number' && Number.isFinite(value);
+ const unknown=data.records.filter(r=>!numeric(r.open)||!numeric(r.cost));
+ const sum=data.records.reduce((s,r)=>s+(numeric(r.open)?r.open:0),0),difference=data.budget.open-sum;
+ const parts=['Budgetplan CHF '+data.budget.plan.toLocaleString('de-CH')+' aus bisherigem Cockpit übernommen.'];
+ if(unknown.length)parts.push('Budget vorläufig: '+unknown.map(r=>'Daten!'+(!numeric(r.open)?'H':'G')+r.sourceRow+' = '+(r.openRaw??r.costRaw??'ungültig')).join('; ')+'. Ungeklärte Beträge sind in den Summen nicht enthalten.');
+ parts.push(difference===0?'Bezifferte offene Beträge abgeglichen: CHF '+sum.toLocaleString('de-CH')+'.':'Budget prüfen: Differenz CHF '+difference.toLocaleString('de-CH')+'.');
+ document.getElementById('budgetCheck').textContent=parts.join(' ');
 }
 async function load(){
  try{const data=await loadData();records=data.records;renderBudgetCheck(data);records.forEach(audit);selectOptions('typeFilter',[...new Set(records.map(r=>cleanType(r.type)).filter(Boolean))]);selectOptions('phaseFilter',[...new Set(records.map(r=>r.phase).filter(Boolean))]);selectOptions('issueFilter',[...new Set(issues.map(x=>x.label))]);renderMetrics();renderSummary();renderIssues()}catch(e){document.getElementById('summary').innerHTML='<div class="issue"><b>Daten konnten nicht gelesen werden.</b><br>'+esc(e.message)+'</div>';document.getElementById('issues').innerHTML=''}
