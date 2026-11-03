@@ -46,8 +46,13 @@ async function loadData(){
  return data;
 }
 function renderBudgetCheck(data){
- const sum=data.records.reduce((s,r)=>s+Number(r.open||0),0),difference=data.budget.open-sum;
- document.getElementById('budgetCheck').textContent=difference===0?'Budgetabgleich: offene Beträge stimmen überein.':'Budget prüfen: Übersicht CHF '+data.budget.open.toLocaleString('de-CH')+' · Datensätze CHF '+sum.toLocaleString('de-CH')+' · Differenz CHF '+difference.toLocaleString('de-CH')+'. Ursache noch ungeklärt.';
+ const numeric=value=>typeof value==='number' && Number.isFinite(value);
+ const unknown=data.records.filter(r=>!numeric(r.open)||!numeric(r.cost));
+ const sum=data.records.reduce((s,r)=>s+(numeric(r.open)?r.open:0),0),difference=data.budget.open-sum;
+ const parts=['Budgetplan CHF '+data.budget.plan.toLocaleString('de-CH')+' aus bisherigem Cockpit übernommen.'];
+ if(unknown.length)parts.push('Budget vorläufig: '+unknown.map(r=>'Daten!'+(!numeric(r.open)?'H':'G')+r.sourceRow+' = '+(r.openRaw??r.costRaw??'ungültig')).join('; ')+'. Ungeklärte Beträge sind in den Summen nicht enthalten.');
+ parts.push(difference===0?'Bezifferte offene Beträge abgeglichen: CHF '+sum.toLocaleString('de-CH')+'.':'Budget prüfen: Differenz CHF '+difference.toLocaleString('de-CH')+'.');
+ document.getElementById('budgetCheck').textContent=parts.join(' ');
 }
 const tripStart='2026-09-24',tripEnd='2026-11-11';
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
@@ -65,7 +70,7 @@ function renderPlace(id,s){const x=placeInfo(s);$(id).innerHTML=`<div class="lab
 function nextOf(test){const key=iso(active),time='00:00';return DATA.records.filter(test).filter(r=>r.date>key||(r.date===key&&(r.time||'')>=time)).sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time))[0]}
 function routeHtml(r,flight=false){return r?`<div class="label">${esc(r.dateDisplay)} · ${esc(r.time||'—')}</div><div class="route"><div>${esc(r.from||'—')}</div><div class="arrow">→</div><div>${esc(r.to||'—')}</div></div><div class="small">${esc(displayText(r))}${r.booking?` · Buchung ${esc(r.booking)}`:''}</div>`:'<div class="small">Kein weiterer Eintrag.</div>'}
 function renderTodos(){const key=iso(active);const rows=DATA.records.filter(r=>!isDone(r)&&(r.open>0||r.due)).sort((a,b)=>(a.due||'9999')+(a.date||'')).slice(0,6);$('todos').innerHTML=rows.length?rows.map(r=>`<div class="todo ${r.due&&r.due<key?'urgent':''}"><b>${esc(displayText(r))}</b><div class="small">${esc([r.due?'Fällig '+r.due.split('-').reverse().join('.'):'',r.open?money(r.open):'',r.from&&r.to?`${r.from} → ${r.to}`:'' ].filter(Boolean).join(' · '))}</div></div>`).join(''):'<div class="small">Keine offenen Pendenzen.</div>'}
-function renderBudget(){const b=DATA.budget;$('budget').innerHTML=`<div class="budget"><div class="metric">Budget<b>${money(b.plan)}</b></div><div class="metric">Bezahlt<b>${money(b.paid)}</b></div><div class="metric">Offen<b>${money(b.open)}</b></div><div class="metric">Restbudget<b>${money(b.remaining)}</b></div></div>`}
+function renderBudget(){const b=DATA.budget;$('budget').innerHTML=`<div class="budget"><div class="metric">Budget<b>${money(b.plan)}</b></div><div class="metric">Erfasste Kosten<b>${money(b.costs)}</b></div><div class="metric">Offen (beziffert)<b>${money(b.open)}</b></div><div class="metric">Restbudget${b.incomplete?' (vorläufig)':''}<b>${money(b.remaining)}</b></div></div>`}
 function showInfo(title){const box=$('info');box.classList.remove('hidden');$('infoHead').textContent=title;let body='';if(title==='Reiseplan'){const rows=DATA.records.filter(r=>r.date>=tripStart&&r.date<=tripEnd);body=`<b>${rows.length} Reisedatensätze</b><div class="small" style="margin:8px 0 12px">Flüge: ${rows.filter(r=>/Flug/.test(r.type)).length} · Hotels: ${rows.filter(r=>/Hotel/.test(r.type)).length} · Transfers/Mietwagen: ${rows.filter(r=>/Transfer/.test(r.type)).length} · Aktivitäten: ${rows.filter(r=>/Aktivität/.test(r.type)).length}</div><table class="table"><tr><th>Datum</th><th>Zeit</th><th>Eintrag</th></tr>${rows.slice(0,40).map(r=>`<tr><td>${esc(r.dateDisplay)}</td><td>${esc(r.time)}</td><td><b>${esc(displayText(r))}</b><div class="small">${esc(r.from&&r.to?`${r.from} → ${r.to}`:'')}</div></td></tr>`).join('')}</table>`}else if(title==='Reiseunterlagen'){body='<b>Dokumentenabgleich folgt nach der Rohdatenprüfung.</b><div class="small" style="margin-top:8px">Es werden keine Unterlagen als vollständig markiert, bevor der PDF-/Voucher-Abgleich sauber abgeschlossen ist.</div>'}else{body=`<b>${esc(title)}</b><div class="small" style="margin-top:8px">In dieser Version noch nicht ausgebaut.</div>`}$('infoBody').innerHTML=body;box.scrollIntoView({behavior:'smooth'})}
 async function init(){
 try{
