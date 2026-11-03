@@ -23,8 +23,8 @@
       "notes": "L × B × H inklusive Rollen und Griff; Gewicht bis 23 kg; Zeitwert in AUD; siehe Pack and Send Ablauf.pdf",
       "phase": "Anreise",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-02",
@@ -40,8 +40,8 @@
       "notes": "Mail an northsydney@packsend.com.au; Lagerung bis 12.10., Öffnungszeiten, Ausweis, Gebühren und lokale Zustellung bestätigen lassen",
       "phase": "Anreise",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-05",
@@ -57,8 +57,8 @@
       "notes": "Mail an cairns@packsend.com.au; Abholung 28.09., Verpackung, Tracking, Warranty, AirTag, Lagerkosten und GST bestätigen lassen",
       "phase": "Anreise",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-08",
@@ -74,8 +74,8 @@
       "notes": "Restzahlung und Kaution sind 30 Tage vor Anreise fällig; Buchung 5383952810",
       "phase": "Anreise",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-10",
@@ -91,8 +91,8 @@
       "notes": "Erst nach schriftlicher Bestätigung beider Servicecenter; Auftrag, Zahlungsbeleg und Etiketten speichern",
       "phase": "Anreise",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-12",
@@ -108,8 +108,8 @@
       "notes": "Mail an reservations@cairnscolonialclub.com.au; Freigabe an Rezeption, Übergabeprotokoll oder Foto und allfällige Gebühr klären",
       "phase": "Anreise",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-18",
@@ -125,8 +125,8 @@
       "notes": "überlegen wegen Kofferverteilung siehe Packliste",
       "phase": "Anreise",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-20",
@@ -142,8 +142,8 @@
       "notes": "Fahrstrecken sowie wichtige Belege auf beiden Hauptgeräten und dem Backup-Natel offline verfügbar machen",
       "phase": "Anreise",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-22",
@@ -159,8 +159,8 @@
       "notes": "Öffnet 48 Stunden vor FRA-Abflug; Buchung EJL3BP; beide Bordkarten kontrollieren",
       "phase": "Anreise",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-23",
@@ -176,8 +176,8 @@
       "notes": "Asia-Pacific  50 GB / 60 Tage; CH Hauptnummer bleibt; Datenwechsel aus; Mobilfunktest, danach Revolut-Leitung bis Singapur ausschalten",
       "phase": "Anreise",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-24",
@@ -193,8 +193,8 @@
       "notes": "Danny Kaiser holt uns ab",
       "phase": "Anreise",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-24",
@@ -210,8 +210,8 @@
       "notes": "Wagen 6, Sitze 127 und 128, Gleis 4, siehe SBB App",
       "phase": "Anreise",
       "due": "",
-      "cost": 70.0,
-      "open": 0.0
+      "cost": 70,
+      "open": 0
     },
     {
       "date": "2026-09-24",
@@ -227,8 +227,8 @@
       "notes": "Lufthansa Business Lounge",
       "phase": "Anreise",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-24",
@@ -244,8 +244,8 @@
       "notes": "Sitzplätze 14 D und F, Singapore Airline App",
       "phase": "Anreise",
       "due": "",
-      "cost": 13900.0,
-      "open": 0.0
+      "cost": 13900,
+      "open": 0
     },
     {
       "date": "2026-09-25",
@@ -261,8 +261,8 @@
       "notes": "Sitzplätze 18 D und F, Singapore Airline App",
       "phase": "Anreise",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-25",
@@ -278,8 +278,8 @@
       "notes": "Koffer organisieren und Transfer",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-25",
@@ -295,8 +295,8 @@
       "notes": "siehe Transferkonzept pdf UberXL/Maxi-Taxi vor Ort",
       "phase": "Australien",
       "due": "",
-      "cost": 30.0,
-      "open": 0.0
+      "cost": 30,
+      "open": 0
     },
     {
       "date": "2026-09-25",
@@ -312,8 +312,8 @@
       "notes": "via agoda direkt im Hotel bezahlen",
       "phase": "Australien",
       "due": "",
-      "cost": 390.0,
-      "open": 0.0
+      "cost": 390,
+      "open": 0
     },
     {
       "date": "2026-09-25",
@@ -329,8 +329,8 @@
       "notes": "Revolut Reise einschalten; Datenroaming ein; Mobile Daten = Revolut Reise; bei Bedarf Flugmodus 30 Sekunden",
       "phase": "Anreise",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-26",
@@ -346,8 +346,8 @@
       "notes": "Ca. 5 Minuten Fussweg; spätestens 08:30 am Pick-up",
       "phase": "Australien",
       "due": "",
-      "cost": 40.0,
-      "open": 0.0
+      "cost": 40,
+      "open": 0
     },
     {
       "date": "2026-09-26",
@@ -363,8 +363,8 @@
       "notes": "Pick-up 08:35 gemäss neuer Bestätigung von Down Under Tours",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-26",
@@ -380,8 +380,8 @@
       "notes": "Viator 1347163399; Supplier Confirmation 816157; neuer Voucher abgelegt",
       "phase": "Australien",
       "due": "",
-      "cost": 310.0,
-      "open": 0.0
+      "cost": 310,
+      "open": 0
     },
     {
       "date": "2026-09-26",
@@ -397,8 +397,8 @@
       "notes": "Preis, Verpackung, Tracking, Hold for Collection, Lagerung und Hotelabholung schriftlich bestätigt; siehe Pack and Send Ablauf.pdf",
       "phase": "Australien",
       "due": "",
-      "cost": 200.0,
-      "open": 0.0
+      "cost": 200,
+      "open": 0
     },
     {
       "date": "2026-09-26",
@@ -414,8 +414,8 @@
       "notes": "zu Fuss und ev. Restaurant auswählen",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-27",
@@ -431,8 +431,8 @@
       "notes": "zu Fuss 10 min zu Reef Fleet Terminal",
       "phase": "Australien",
       "due": "",
-      "cost": 40.0,
-      "open": 0.0
+      "cost": 40,
+      "open": 0
     },
     {
       "date": "2026-09-27",
@@ -448,8 +448,8 @@
       "notes": "1h vor Start Magic Reef",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-27",
@@ -465,8 +465,8 @@
       "notes": "Magic Reef Material mitnehmen!",
       "phase": "Australien",
       "due": "",
-      "cost": 780.0,
-      "open": 0.0
+      "cost": 780,
+      "open": 0
     },
     {
       "date": "2026-09-27",
@@ -482,8 +482,8 @@
       "notes": "19,5–20 kg; Inhalt und Koffer fotografieren; Inventarliste; keine Wertsachen, Medikamente oder Batterien; siehe Pack and Send Ablauf.pdf",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-27",
@@ -499,8 +499,8 @@
       "notes": "Abholung durch PACK & SEND am 28.09.; Versandetikett, Fotos und Tracking kontrollieren",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-28",
@@ -516,8 +516,8 @@
       "notes": "Taxi/Uber, ca. 3 Min.; Tour-Pick-up oder 22 min laufen (1.8 km)",
       "phase": "Australien",
       "due": "",
-      "cost": 40.0,
-      "open": 0.0
+      "cost": 40,
+      "open": 0
     },
     {
       "date": "2026-09-28",
@@ -533,8 +533,8 @@
       "notes": "Neuer Viator-Voucher bestätigt 28.09.2026; Veranstalter-Nr. 15656800",
       "phase": "Australien",
       "due": "",
-      "cost": 345.0,
-      "open": 0.0
+      "cost": 345,
+      "open": 0
     },
     {
       "date": "2026-09-28",
@@ -550,8 +550,8 @@
       "notes": "Flugzeit, Flughafen-Check-in, Gepäck und Zusatzgepäck prüfen; PW2XXK/E2PACK8",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-29",
@@ -567,8 +567,8 @@
       "notes": "Pflicht gemäss Viator-Beleg; Check-in am 01.10. zusätzlich 30 Min. vor Abfahrt",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-29",
@@ -584,8 +584,8 @@
       "notes": "Koffer packen und Reisegepäck Proserpine checken (max 20 kg)",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-29",
@@ -601,8 +601,8 @@
       "notes": "Am Vorabend bestellen, keine Agoda-Buchung.",
       "phase": "Australien",
       "due": "",
-      "cost": 20.0,
-      "open": 0.0
+      "cost": 20,
+      "open": 0
     },
     {
       "date": "2026-09-29",
@@ -618,8 +618,8 @@
       "notes": "Voucher vorher ausdrucken E2PACK8",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-29",
@@ -635,8 +635,8 @@
       "notes": "gebucht via transferbus, Beleg bei Flüge!",
       "phase": "Australien",
       "due": "",
-      "cost": 85.0,
-      "open": 0.0
+      "cost": 85,
+      "open": 0
     },
     {
       "date": "2026-09-29",
@@ -652,8 +652,8 @@
       "notes": "",
       "phase": "Australien",
       "due": "",
-      "cost": 300.0,
-      "open": 0.0
+      "cost": 300,
+      "open": 0
     },
     {
       "date": "2026-09-30",
@@ -669,8 +669,8 @@
       "notes": "zu Fuss vom Hotel Abfahrt Shuttle ist ca 7.40 Uhr",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-30",
@@ -686,8 +686,8 @@
       "notes": "mit Shuttle",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-30",
@@ -703,8 +703,8 @@
       "notes": "Viator App ist Voucher",
       "phase": "Australien",
       "due": "",
-      "cost": 345.0,
-      "open": 0.0
+      "cost": 345,
+      "open": 0
     },
     {
       "date": "2026-09-30",
@@ -720,8 +720,8 @@
       "notes": "mit Shuttle",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-30",
@@ -737,8 +737,8 @@
       "notes": "",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-09-30",
@@ -754,8 +754,8 @@
       "notes": "Öffnet 48 Stunden vor Abflug; Buchung UVWYZN; Bordkarten speichern",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-01",
@@ -771,8 +771,8 @@
       "notes": "Viator App ist Voucher",
       "phase": "Australien",
       "due": "",
-      "cost": 340.0,
-      "open": 0.0
+      "cost": 340,
+      "open": 0
     },
     {
       "date": "2026-10-01",
@@ -788,8 +788,8 @@
       "notes": "Empfohlen gemäss Sunny-Cars-Beleg; vor Übernahme am 02.10. 17:30",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-01",
@@ -805,8 +805,8 @@
       "notes": "Tracking kontrollieren; nach Delivered schriftliche Empfangsbestätigung und definitive Lagerkosten verlangen",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-02",
@@ -822,8 +822,8 @@
       "notes": "Shuttle organisieren oder via App",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-02",
@@ -839,8 +839,8 @@
       "notes": "Koffer packen",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-02",
@@ -856,8 +856,8 @@
       "notes": "Virgin Economy Sitz 25 E und F",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-02",
@@ -873,8 +873,8 @@
       "notes": "Sunny Car",
       "phase": "Australien",
       "due": "",
-      "cost": 220.0,
-      "open": 0.0
+      "cost": 220,
+      "open": 0
     },
     {
       "date": "2026-10-02",
@@ -890,8 +890,8 @@
       "notes": "Trip.com",
       "phase": "Australien",
       "due": "",
-      "cost": 455.0,
-      "open": 0.0
+      "cost": 455,
+      "open": 0
     },
     {
       "date": "2026-10-03",
@@ -907,8 +907,8 @@
       "notes": "siehe Voucherinfo 24h vorher",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-03",
@@ -924,8 +924,8 @@
       "notes": "zu Fuss",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-03",
@@ -941,8 +941,8 @@
       "notes": "Öffnet 48 Stunden vor Abflug; Buchung UVWYZN; Bordkarten speichern",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-04",
@@ -958,8 +958,8 @@
       "notes": "",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-04",
@@ -975,8 +975,8 @@
       "notes": "Viator App ist Voucher 24 h vorher bestätigen",
       "phase": "Australien",
       "due": "",
-      "cost": 125.0,
-      "open": 0.0
+      "cost": 125,
+      "open": 0
     },
     {
       "date": "2026-10-04",
@@ -992,8 +992,8 @@
       "notes": "Empfohlen gemäss Sunny-Cars-Beleg; vor Übernahme am 05.10. 19:30",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-05",
@@ -1009,8 +1009,8 @@
       "notes": "",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-05",
@@ -1026,8 +1026,8 @@
       "notes": "https://media-engine.meg-as.accessoticketing.com/tickets/v1/accesso95?oToken=bda5904367ea199154f4afc691a51d136fdbe5447a81ca8d92b4b087369080d2&cToken=f434e2e5644c0fb88fe0ea71373c8378fbfbc7496003300e55aae07c80b47096",
       "phase": "Australien",
       "due": "",
-      "cost": 80.0,
-      "open": 0.0
+      "cost": 80,
+      "open": 0
     },
     {
       "date": "2026-10-05",
@@ -1043,8 +1043,8 @@
       "notes": "",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-05",
@@ -1060,8 +1060,8 @@
       "notes": "Virgin Economy Sitz 25 A und B",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-05",
@@ -1077,8 +1077,8 @@
       "notes": "Sunny Car",
       "phase": "Australien",
       "due": "",
-      "cost": 380.0,
-      "open": 0.0
+      "cost": 380,
+      "open": 0
     },
     {
       "date": "2026-10-05",
@@ -1094,8 +1094,8 @@
       "notes": "agoda app Voucher",
       "phase": "Australien",
       "due": "",
-      "cost": 310.0,
-      "open": 0.0
+      "cost": 310,
+      "open": 0
     },
     {
       "date": "2026-10-06",
@@ -1111,8 +1111,8 @@
       "notes": "BUCHEN via Hotel",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-06",
@@ -1128,8 +1128,8 @@
       "notes": "Wenn die Ankunft in North Sydney noch nicht schriftlich bestätigt ist: PACK & SEND Cairns sofort kontaktieren",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-07",
@@ -1145,8 +1145,8 @@
       "notes": "BUCHEN via Hotel",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-08",
@@ -1162,8 +1162,8 @@
       "notes": "",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-08",
@@ -1179,8 +1179,8 @@
       "notes": "",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-08",
@@ -1196,8 +1196,8 @@
       "notes": "",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-08",
@@ -1213,8 +1213,8 @@
       "notes": "booking.com App via gmail!! A",
       "phase": "Australien",
       "due": "",
-      "cost": 730.0,
-      "open": 0.0
+      "cost": 730,
+      "open": 0
     },
     {
       "date": "2026-10-08",
@@ -1230,8 +1230,8 @@
       "notes": "",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-08",
@@ -1247,8 +1247,8 @@
       "notes": "",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-09",
@@ -1264,8 +1264,8 @@
       "notes": "Ticket im Wallet",
       "phase": "Australien",
       "due": "",
-      "cost": 85.0,
-      "open": 0.0
+      "cost": 85,
+      "open": 0
     },
     {
       "date": "2026-10-09",
@@ -1281,8 +1281,8 @@
       "notes": "zu Fuss",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-10",
@@ -1298,8 +1298,8 @@
       "notes": "zu Fuss",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-10",
@@ -1315,8 +1315,8 @@
       "notes": "kurzfristig buchen",
       "phase": "Australien",
       "due": "",
-      "cost": 100.0,
-      "open": 0.0
+      "cost": 100,
+      "open": 0
     },
     {
       "date": "2026-10-11",
@@ -1332,8 +1332,8 @@
       "notes": "Koffer packen bei Frankie Silver Bullet ACHTUNG 180 CHF Kaution offen",
       "phase": "Australien",
       "due": "",
-      "cost": -180.0,
-      "open": 0.0
+      "cost": -180,
+      "open": 0
     },
     {
       "date": "2026-10-11",
@@ -1349,8 +1349,8 @@
       "notes": "",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-11",
@@ -1366,8 +1366,8 @@
       "notes": "",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-11",
@@ -1383,8 +1383,8 @@
       "notes": "Zu Fuss, allenfalls Watsons Bay auslassen",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-11",
@@ -1400,8 +1400,8 @@
       "notes": "agoda app Voucher",
       "phase": "Australien",
       "due": "",
-      "cost": 660.0,
-      "open": 0.0
+      "cost": 660,
+      "open": 0
     },
     {
       "date": "2026-10-11",
@@ -1417,8 +1417,8 @@
       "notes": "",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-11",
@@ -1434,8 +1434,8 @@
       "notes": "mit öV ins Hotel View Sydney",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-12",
@@ -1451,8 +1451,8 @@
       "notes": "zu Fuss",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-13",
@@ -1468,8 +1468,8 @@
       "notes": "zu Fuss",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-13",
@@ -1485,8 +1485,8 @@
       "notes": "Start 18.30 Tripadvisor App Voucher",
       "phase": "Australien",
       "due": "",
-      "cost": 60.0,
-      "open": 0.0
+      "cost": 60,
+      "open": 0
     },
     {
       "date": "2026-10-14",
@@ -1502,8 +1502,8 @@
       "notes": "zu Fuss",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-14",
@@ -1519,8 +1519,8 @@
       "notes": "",
       "phase": "Australien",
       "due": "",
-      "cost": 55.0,
-      "open": 0.0
+      "cost": 55,
+      "open": 0
     },
     {
       "date": "2026-10-14",
@@ -1536,8 +1536,8 @@
       "notes": "zu Fuss",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-14",
@@ -1553,8 +1553,8 @@
       "notes": "zu Fuss",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-15",
@@ -1570,8 +1570,8 @@
       "notes": "Fährtickets Manly vor Ort buchen",
       "phase": "Australien",
       "due": "",
-      "cost": 25.0,
-      "open": 0.0
+      "cost": 25,
+      "open": 0
     },
     {
       "date": "2026-10-16",
@@ -1587,8 +1587,8 @@
       "notes": "24h vor Abflug am 17.10. 09:10",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-16",
@@ -1604,8 +1604,8 @@
       "notes": "Je Person eine kostenlose NZTD; Bestätigungen speichern; https://www.travellerdeclaration.govt.nz/",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-16",
@@ -1621,8 +1621,8 @@
       "notes": "agoda app Voucher",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-16",
@@ -1638,8 +1638,8 @@
       "notes": "zu Fuss",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-16",
@@ -1655,8 +1655,8 @@
       "notes": "mit Hotel View Sydney checken oder agoda bestellen",
       "phase": "Australien",
       "due": "",
-      "cost": 30.0,
-      "open": 0.0
+      "cost": 30,
+      "open": 0
     },
     {
       "date": "2026-10-16",
@@ -1672,8 +1672,8 @@
       "notes": "Empfohlen gemäss Sunny-Cars-Beleg; vor Übernahme am 17.10. 14:45",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-16",
@@ -1689,8 +1689,8 @@
       "notes": "agoda app Voucher",
       "phase": "Australien",
       "due": "",
-      "cost": 80.0,
-      "open": 0.0
+      "cost": 80,
+      "open": 0
     },
     {
       "date": "2026-10-17",
@@ -1706,8 +1706,8 @@
       "notes": "",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-17",
@@ -1723,8 +1723,8 @@
       "notes": "Beim Check-in am 16.10. für den 17.10. um ca. 06:45 reservieren; Preis und Abholzeit bestätigen; drei Koffer anmelden",
       "phase": "Australien",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-17",
@@ -1740,8 +1740,8 @@
       "notes": "Air New Zealand Sitz 10 E und F PLUS ZUSATZKOFFER gebucht",
       "phase": "Australien",
       "due": "",
-      "cost": 55.0,
-      "open": 0.0
+      "cost": 55,
+      "open": 0
     },
     {
       "date": "2026-10-17",
@@ -1757,8 +1757,8 @@
       "notes": "Beleg verlangt vollständige Zahlung 48h vor Anreise; prüfen, ob Belastung erfolgt ist",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-17",
@@ -1774,8 +1774,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-17",
@@ -1791,8 +1791,8 @@
       "notes": "Sunny Car",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 660.0,
-      "open": 0.0
+      "cost": 660,
+      "open": 0
     },
     {
       "date": "2026-10-17",
@@ -1808,8 +1808,8 @@
       "notes": "agoda app Voucher",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 340.0,
-      "open": 0.0
+      "cost": 340,
+      "open": 0
     },
     {
       "date": "2026-10-17",
@@ -1825,8 +1825,8 @@
       "notes": "zu Fuss",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-17",
@@ -1842,8 +1842,8 @@
       "notes": "zu Fuss",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-18",
@@ -1859,8 +1859,8 @@
       "notes": "Auto",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-18",
@@ -1876,8 +1876,8 @@
       "notes": "zu Fuss",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-19",
@@ -1893,8 +1893,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-19",
@@ -1910,8 +1910,8 @@
       "notes": "Koffer packen und Auto beladen",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-19",
@@ -1927,8 +1927,8 @@
       "notes": "Auto",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-19",
@@ -1944,8 +1944,8 @@
       "notes": "Auto",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-19",
@@ -1961,8 +1961,8 @@
       "notes": "booking.com App Voucher",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 160.0,
-      "open": 0.0
+      "cost": 160,
+      "open": 0
     },
     {
       "date": "2026-10-19",
@@ -1978,9 +1978,8 @@
       "notes": "Golfplatz anfragen",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 100.0,
-      "open": null,
-      "openRaw": "./.25"
+      "cost": 100,
+      "open": 0
     },
     {
       "date": "2026-10-19",
@@ -1996,8 +1995,8 @@
       "notes": "zu Fuss",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-19",
@@ -2013,8 +2012,8 @@
       "notes": "zu Fuss",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-20",
@@ -2030,8 +2029,8 @@
       "notes": "Auto",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-20",
@@ -2047,8 +2046,8 @@
       "notes": "zu Fuss",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-20",
@@ -2064,8 +2063,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-20",
@@ -2081,8 +2080,8 @@
       "notes": "zu Fuss",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 200.0,
-      "open": 0.0
+      "cost": 200,
+      "open": 0
     },
     {
       "date": "2026-10-20",
@@ -2098,8 +2097,8 @@
       "notes": "Auto",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-20",
@@ -2115,8 +2114,8 @@
       "notes": "reserviert",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-20",
@@ -2132,8 +2131,8 @@
       "notes": "zu Fuss",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 140.0,
-      "open": 0.0
+      "cost": 140,
+      "open": 0
     },
     {
       "date": "2026-10-21",
@@ -2149,8 +2148,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-21",
@@ -2166,8 +2165,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-21",
@@ -2183,8 +2182,8 @@
       "notes": "Auto",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-21",
@@ -2200,8 +2199,8 @@
       "notes": "Auto",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-21",
@@ -2217,8 +2216,8 @@
       "notes": "Auto",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-21",
@@ -2234,8 +2233,8 @@
       "notes": "agoda app Voucher",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 130.0,
-      "open": 0.0
+      "cost": 130,
+      "open": 0
     },
     {
       "date": "2026-10-21",
@@ -2251,8 +2250,8 @@
       "notes": "Mailanfrage",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 20.0,
-      "open": 0.0
+      "cost": 20,
+      "open": 0
     },
     {
       "date": "2026-10-21",
@@ -2268,8 +2267,8 @@
       "notes": "zu Fuss",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-22",
@@ -2285,8 +2284,8 @@
       "notes": "zu Fuss",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-22",
@@ -2302,8 +2301,8 @@
       "notes": "zu Fuss",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 120.0,
-      "open": 0.0
+      "cost": 120,
+      "open": 0
     },
     {
       "date": "2026-10-22",
@@ -2319,8 +2318,8 @@
       "notes": "Boot",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-22",
@@ -2336,8 +2335,8 @@
       "notes": "zu Fuss",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-23",
@@ -2353,8 +2352,8 @@
       "notes": "Auto beladen",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-23",
@@ -2370,8 +2369,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-23",
@@ -2387,8 +2386,8 @@
       "notes": "Auto",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-23",
@@ -2404,8 +2403,8 @@
       "notes": "Auto",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-23",
@@ -2421,8 +2420,8 @@
       "notes": "Auto",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-23",
@@ -2438,8 +2437,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-23",
@@ -2455,8 +2454,8 @@
       "notes": "Reservation Availability | Peregrine Wines",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 70.0,
-      "open": 0.0
+      "cost": 70,
+      "open": 0
     },
     {
       "date": "2026-10-23",
@@ -2472,8 +2471,8 @@
       "notes": "Auto",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-23",
@@ -2489,8 +2488,8 @@
       "notes": "Hilton ",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 280.0,
-      "open": 0.0
+      "cost": 280,
+      "open": 0
     },
     {
       "date": "2026-10-23",
@@ -2506,8 +2505,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-23",
@@ -2523,8 +2522,8 @@
       "notes": "Book Skyline Queenstown | Gondola, Luge, Dining & More",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 200.0,
-      "open": 0.0
+      "cost": 200,
+      "open": 0
     },
     {
       "date": "2026-10-23",
@@ -2540,8 +2539,8 @@
       "notes": "Auto",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-24",
@@ -2557,8 +2556,8 @@
       "notes": "Auto",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-24",
@@ -2574,8 +2573,8 @@
       "notes": "Auto",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-24",
@@ -2591,8 +2590,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-24",
@@ -2608,8 +2607,8 @@
       "notes": "Check-in 13:30; 3 Arthurs Point Road",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-24",
@@ -2625,8 +2624,8 @@
       "notes": "Fahrtdauer 25 Minuten; ",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 190.0,
-      "open": 0.0
+      "cost": 190,
+      "open": 0
     },
     {
       "date": "2026-10-24",
@@ -2642,8 +2641,8 @@
       "notes": "zu Fuss",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-25",
@@ -2659,8 +2658,8 @@
       "notes": "Auto",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-25",
@@ -2676,8 +2675,8 @@
       "notes": "Auto",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-25",
@@ -2693,8 +2692,8 @@
       "notes": "zu Fuss",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-25",
@@ -2710,8 +2709,8 @@
       "notes": "bezahlen in agoda automatisch am 16.10",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 165.0,
-      "open": 0.0
+      "cost": 165,
+      "open": 0
     },
     {
       "date": "2026-10-26",
@@ -2727,8 +2726,8 @@
       "notes": "Auto",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-26",
@@ -2744,8 +2743,8 @@
       "notes": "Auto",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-26",
@@ -2761,8 +2760,8 @@
       "notes": "stornierbar bis 25.10. je nach Wetter Revolut bezahlt",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-26",
@@ -2778,8 +2777,8 @@
       "notes": "Online Check-in öffnet 24h vor Abflug am 27.10. 12:10",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-26",
@@ -2795,8 +2794,8 @@
       "notes": "Auto",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-26",
@@ -2812,8 +2811,8 @@
       "notes": "Empfohlen gemäss Sunny-Cars-Beleg; vor Übernahme am 27.10. 15:30",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-27",
@@ -2829,8 +2828,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-27",
@@ -2846,8 +2845,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-27",
@@ -2863,8 +2862,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-27",
@@ -2880,8 +2879,8 @@
       "notes": "Air New Zealand Sitz 19A und B",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 240.0,
-      "open": 0.0
+      "cost": 240,
+      "open": 0
     },
     {
       "date": "2026-10-27",
@@ -2897,8 +2896,8 @@
       "notes": "Sunny Car",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 470.0,
-      "open": 0.0
+      "cost": 470,
+      "open": 0
     },
     {
       "date": "2026-10-27",
@@ -2914,8 +2913,8 @@
       "notes": "agoda app Voucher",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 275.0,
-      "open": 0.0
+      "cost": 275,
+      "open": 0
     },
     {
       "date": "2026-10-27",
@@ -2931,8 +2930,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-27",
@@ -2948,8 +2947,8 @@
       "notes": "Restaurant auswählen",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-27",
@@ -2965,8 +2964,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-28",
@@ -2982,8 +2981,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-28",
@@ -2999,8 +2998,8 @@
       "notes": "VOR ORT ENTSCHEIDEN",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-28",
@@ -3016,8 +3015,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-28",
@@ -3033,8 +3032,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-28",
@@ -3050,8 +3049,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-28",
@@ -3067,8 +3066,8 @@
       "notes": "Single Entry - SkyCity Auckland Reservations",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-29",
@@ -3084,8 +3083,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-29",
@@ -3101,8 +3100,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 55.0,
-      "open": 0.0
+      "cost": 55,
+      "open": 0
     },
     {
       "date": "2026-10-29",
@@ -3118,8 +3117,8 @@
       "notes": "mit Boeuf Bourgignon",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-29",
@@ -3135,8 +3134,8 @@
       "notes": "20 Dollar angezahlt",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-29",
@@ -3152,8 +3151,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-29",
@@ -3169,8 +3168,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-29",
@@ -3186,8 +3185,8 @@
       "notes": "Restaurant auswählen",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-30",
@@ -3203,8 +3202,8 @@
       "notes": "Single Entry - SkyCity Auckland Reservations",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 50.0,
-      "open": 0.0
+      "cost": 50,
+      "open": 0
     },
     {
       "date": "2026-10-30",
@@ -3220,8 +3219,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-30",
@@ -3237,8 +3236,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-30",
@@ -3254,8 +3253,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-31",
@@ -3271,8 +3270,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-31",
@@ -3288,8 +3287,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-31",
@@ -3305,8 +3304,8 @@
       "notes": "Rotorua Tree Top Walks | Redwoods Treewalk® Official Site",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-31",
@@ -3322,8 +3321,8 @@
       "notes": "agoda app Voucher",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 200.0,
-      "open": 0.0
+      "cost": 200,
+      "open": 0
     },
     {
       "date": "2026-10-31",
@@ -3339,8 +3338,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-10-31",
@@ -3356,8 +3355,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-01",
@@ -3373,8 +3372,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-01",
@@ -3390,8 +3389,8 @@
       "notes": "Lady-Knox-Geysir: spätestens 09:45 am Parkplatz eintreffen; Vorführung 10:15; Tickets offline bereithalten",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 50.0,
-      "open": 0.0
+      "cost": 50,
+      "open": 0
     },
     {
       "date": "2026-11-01",
@@ -3407,8 +3406,8 @@
       "notes": "Golfplatz anfragen",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 120.0,
-      "open": 0.0
+      "cost": 120,
+      "open": 0
     },
     {
       "date": "2026-11-01",
@@ -3424,8 +3423,8 @@
       "notes": "zu Fuss checken! 19.00 Abholung!",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-01",
@@ -3441,8 +3440,8 @@
       "notes": "https://te-pa-tu.rezdy.com/?_gl=1*dkplbt*_gcl_au*MTU1OTc3NjA4LjE3NjcwMzUzOTg.*_ga*OTYwODkwNTkwLjE3NjcwMzUzOTk.*_ga_GNYTHTYFWP*czE3NjcwMzUzOTgkbzEkZzAkdDE3NjcwMzUzOTgkajYwJGwwJGgyMDIyNjE5NjQ5",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 200.0,
-      "open": 0.0
+      "cost": 200,
+      "open": 0
     },
     {
       "date": "2026-11-01",
@@ -3458,8 +3457,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-02",
@@ -3475,8 +3474,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-02",
@@ -3492,8 +3491,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-02",
@@ -3509,8 +3508,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-02",
@@ -3526,8 +3525,8 @@
       "notes": "https://www.waitomo.com/glowworms-and-caves/waitomo-glowworm-caves",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 85.0,
-      "open": 0.0
+      "cost": 85,
+      "open": 0
     },
     {
       "date": "2026-11-02",
@@ -3543,8 +3542,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-02",
@@ -3560,8 +3559,8 @@
       "notes": "agoda app Voucher",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 140.0,
-      "open": 0.0
+      "cost": 140,
+      "open": 0
     },
     {
       "date": "2026-11-02",
@@ -3577,8 +3576,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-02",
@@ -3594,8 +3593,8 @@
       "notes": "Shuttle BUCHEN nach Momi Bay via Consierge",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-02",
@@ -3611,8 +3610,8 @@
       "notes": "Öffnet 48 Stunden vor Abflug; Buchung Y5M9YJ; Bordkarten speichern",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-03",
@@ -3628,8 +3627,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-03",
@@ -3645,8 +3644,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-03",
@@ -3662,8 +3661,8 @@
       "notes": "agoda app Voucher",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 85.0,
-      "open": 0.0
+      "cost": 85,
+      "open": 0
     },
     {
       "date": "2026-11-03",
@@ -3679,8 +3678,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-03",
@@ -3696,8 +3695,8 @@
       "notes": "Timetable | The Yellow Bus | Auckland Airport Hotel Transfer Shuttle",
       "phase": "Neuseeland",
       "due": "2026-11-03",
-      "cost": 0.0,
-      "open": 10.0
+      "cost": 0,
+      "open": 10
     },
     {
       "date": "2026-11-03",
@@ -3713,8 +3712,8 @@
       "notes": "shuttle im Hotel buchen",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-03",
@@ -3730,8 +3729,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "2026-11-03",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-04",
@@ -3747,8 +3746,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-04",
@@ -3764,8 +3763,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-04",
@@ -3781,8 +3780,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "2026-11-04",
-      "cost": 0.0,
-      "open": 10.0
+      "cost": 0,
+      "open": 10
     },
     {
       "date": "2026-11-04",
@@ -3798,8 +3797,8 @@
       "notes": "",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-04",
@@ -3815,8 +3814,8 @@
       "notes": "Business Fiji Air Sitz 1A und 1C",
       "phase": "Neuseeland",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-04",
@@ -3832,8 +3831,8 @@
       "notes": "",
       "phase": "Fiji",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-04",
@@ -3849,8 +3848,8 @@
       "notes": "",
       "phase": "Fiji",
       "due": "",
-      "cost": 50.0,
-      "open": 0.0
+      "cost": 50,
+      "open": 0
     },
     {
       "date": "2026-11-04",
@@ -3866,8 +3865,8 @@
       "notes": "Siehe Mail vom Marriott Hotel",
       "phase": "Fiji",
       "due": "",
-      "cost": 1050.0,
-      "open": 0.0
+      "cost": 1050,
+      "open": 0
     },
     {
       "date": "2026-11-04",
@@ -3883,8 +3882,8 @@
       "notes": "",
       "phase": "Fiji",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-05",
@@ -3900,8 +3899,8 @@
       "notes": "je nach Wetter buchen, siehe Mail",
       "phase": "Fiji",
       "due": "2026-11-05",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-06",
@@ -3917,8 +3916,8 @@
       "notes": "je nach Wetter buchen, siehe Mail",
       "phase": "Fiji",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-06",
@@ -3934,8 +3933,8 @@
       "notes": "Öffnet 48 Stunden vor Abflug; Buchung Y5M9YJ; Bordkarten speichern",
       "phase": "Fiji",
       "due": "2026-11-06",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-07",
@@ -3951,8 +3950,8 @@
       "notes": "Frühestens 3 Tage inklusive Ankunftstag; für Ankunft am 09.11. ab 07.11. einreichen; kostenlose Gruppenmeldung: https://eservices.ica.gov.sg/sgarrivalcard/",
       "phase": "Fiji",
       "due": "2026-11-07",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-07",
@@ -3968,8 +3967,8 @@
       "notes": "",
       "phase": "Fiji",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-08",
@@ -3985,8 +3984,8 @@
       "notes": "",
       "phase": "Fiji",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-08",
@@ -4002,8 +4001,8 @@
       "notes": "Siehe Mail vom Marriott Hotel",
       "phase": "Fiji",
       "due": "",
-      "cost": 0.0,
-      "open": 50.0
+      "cost": 0,
+      "open": 50
     },
     {
       "date": "2026-11-08",
@@ -4019,8 +4018,8 @@
       "notes": "denarau.concierge@hilton.com",
       "phase": "Fiji",
       "due": "2026-11-06",
-      "cost": 0.0,
-      "open": 50.0
+      "cost": 0,
+      "open": 50
     },
     {
       "date": "2026-11-08",
@@ -4036,8 +4035,8 @@
       "notes": "shuttle im Hotel buchen",
       "phase": "Fiji",
       "due": "2026-11-08",
-      "cost": 0.0,
-      "open": 25.0
+      "cost": 0,
+      "open": 25
     },
     {
       "date": "2026-11-08",
@@ -4053,8 +4052,8 @@
       "notes": "",
       "phase": "Fiji",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-08",
@@ -4070,8 +4069,8 @@
       "notes": "",
       "phase": "Fiji",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-08",
@@ -4087,8 +4086,8 @@
       "notes": "Business Fiji Air Sitz 1K und 1J",
       "phase": "Fiji",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-08",
@@ -4104,8 +4103,8 @@
       "notes": "Öffnet 48 Stunden vor Abflug; Buchung EJL3BP; Bordkarten speichern",
       "phase": "Singapur",
       "due": "2026-11-08",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-09",
@@ -4121,8 +4120,8 @@
       "notes": "",
       "phase": "Singapur",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-09",
@@ -4138,8 +4137,8 @@
       "notes": "Shuttle BUCHEN zu MBS",
       "phase": "Singapur",
       "due": "2026-11-06",
-      "cost": 0.0,
-      "open": 25.0
+      "cost": 0,
+      "open": 25
     },
     {
       "date": "2026-11-09",
@@ -4155,8 +4154,8 @@
       "notes": "MBS App",
       "phase": "Singapur",
       "due": "",
-      "cost": 665.0,
-      "open": 0.0
+      "cost": 665,
+      "open": 0
     },
     {
       "date": "2026-11-09",
@@ -4172,8 +4171,8 @@
       "notes": "",
       "phase": "Singapur",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-09",
@@ -4189,8 +4188,8 @@
       "notes": "",
       "phase": "Singapur",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-09",
@@ -4206,8 +4205,8 @@
       "notes": "",
       "phase": "Singapur",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-09",
@@ -4223,8 +4222,8 @@
       "notes": "",
       "phase": "Singapur",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-09",
@@ -4240,8 +4239,8 @@
       "notes": "",
       "phase": "Singapur",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-10",
@@ -4257,8 +4256,8 @@
       "notes": "",
       "phase": "Singapur",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-10",
@@ -4274,8 +4273,8 @@
       "notes": "Shuttle Buchen",
       "phase": "Singapur",
       "due": "2026-11-10",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-10",
@@ -4291,8 +4290,8 @@
       "notes": "Optional – Eintritt Gewächshäuser vor Ort ca. CHF 50; gemäss Fabienne eher weglassen.",
       "phase": "Singapur",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-10",
@@ -4308,8 +4307,8 @@
       "notes": "",
       "phase": "Singapur",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-10",
@@ -4325,8 +4324,8 @@
       "notes": "Buchen",
       "phase": "Singapur",
       "due": "2026-11-10",
-      "cost": 0.0,
-      "open": 25.0
+      "cost": 0,
+      "open": 25
     },
     {
       "date": "2026-11-10",
@@ -4342,8 +4341,8 @@
       "notes": "",
       "phase": "Singapur",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-10",
@@ -4359,8 +4358,8 @@
       "notes": "",
       "phase": "Singapur",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-10",
@@ -4376,8 +4375,8 @@
       "notes": "Sitzplätze 20 D und F, Singapoure Airline App",
       "phase": "Singapur",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-11",
@@ -4393,8 +4392,8 @@
       "notes": "",
       "phase": "Rückreise",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-11",
@@ -4410,8 +4409,8 @@
       "notes": "via SBB App Buchen oder mit Hinreise",
       "phase": "Rückreise",
       "due": "2026-11-10",
-      "cost": 0.0,
-      "open": 90.0
+      "cost": 0,
+      "open": 90
     },
     {
       "date": "2026-11-11",
@@ -4427,8 +4426,8 @@
       "notes": "",
       "phase": "Rückreise",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-11",
@@ -4444,8 +4443,8 @@
       "notes": "",
       "phase": "Rückreise",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     },
     {
       "date": "2026-11-11",
@@ -4461,16 +4460,16 @@
       "notes": "Termin fixieren für Treffen",
       "phase": "Rückreise",
       "due": "",
-      "cost": 0.0,
-      "open": 0.0
+      "cost": 0,
+      "open": 0
     }
   ],
   "budget": {
     "plan": 30000,
-    "costs": 27015.0,
-    "open": 285.0,
-    "booked": 27300.0,
-    "remaining": 2700.0,
-    "incomplete": true
+    "costs": 27015,
+    "open": 285,
+    "booked": 27300,
+    "remaining": 2700,
+    "incomplete": false
   }
 }
